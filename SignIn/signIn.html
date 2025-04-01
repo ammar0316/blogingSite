@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignIn</title>
+    <!-- tailwind cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="w-screen h-screen flex justify-center items-center bg-gray-100  ">
+    <div class="h-[550px] w-[400px] bg-white   rounded-[10px]">
+     <div class="h-[490px] w-[350px]   flex justify-center items-start flex-col  gap-[30px]  rounded-[10px] ml-20">
+        
+        <h1 class="text-[30px] font-bold text-blue-400" >User SignIn</h1>
+        <p class="text-lg font-bold ">User email</p>
+        <input id="email" type="email" placeholder="abc@gamil.com" class="h-[40px] w-[250px] rounded-[10px] bg-gray-200 text-lg font-light  pl-5">
+        <p class="text-lg font-bold ">User Password</p>
+        <input id="password" type="password" placeholder="xxxxx" class="h-[40px] w-[250px] rounded-[10px] bg-gray-200 text-lg font-light pl-5">
+        <button id="signInBtn" class="h-[35px] w-[150px] bg-blue-700 text-white rounded-[10px] ml-10 font-bold transition-all duration-900 hover:bg-green-500 hover:scale-110 hover:shadow-xl">
+            SignIn Now
+        </button>
+        
+        <p class="text-lg font-light">I have already acount exist <a href="../LogIn/logIn.html" class="text-blue-900 font-bold">LogIn</a></p>
+        
+     </div>
+     <button id="GooglesignInBtb" class="h-[35px] w-[250px] bg-blue-700 text-white rounded-[10px] ml-20 font-bold transition-all duration-900 hover:bg-green-500 hover:scale-110 hover:shadow-xl">
+        SignIn with Google
+    </button>
+ </div>
+ <script type="module" src="signin.js"></script>
+</body>
+</html>

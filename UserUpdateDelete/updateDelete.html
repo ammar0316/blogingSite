@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firestore CRUD</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 p-5">
+    <button id="gohome" class="mt-5 block mx-auto bg-green-600 text-white p-2 rounded-md hover:bg-green-800 transition relative left-[45%] top-[-30px]">
+        Go Home
+    </button>
+    <hr class="relative top-[-20px] shadow-lg">
+    
+    <div id="hidee" class="max-w-lg mx-auto bg-white p-5 rounded-lg shadow-lg mt-[120px]">
+        <h1 class="text-2xl font-bold text-center text-gray-800 mb-5">write your collection name</h1>
+        
+        <!--  Collection Input -->
+        <input id="collectionInput" type="text" placeholder="Enter Collection Name"
+        class="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+        
+        <button id="fetchBtn"
+        class="w-full mt-3 bg-blue-600 text-white p-2 rounded-md hover:bg-blue-800 transition">
+        Fetch Data
+    </button>
+</div>
+
+<div id="hide" class="mt-5 flex flex-wrap gap-5 justify-start hidden"></div>
+
+
+<script type="module" src="udataeDelete.js" defer></script>
+</body>
+</html>

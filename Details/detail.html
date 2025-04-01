@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details</title>
+      <!-- tailwind cdn -->
+      <script src="https://cdn.tailwindcss.com"></script>
+      <style>
+        html{
+            overflow-x: hidden;
+            scrollbar-width: none;
+        }
+      </style>
+</head>
+<body class="p-4   ">
+    <div class="h-screen w-screen  flex items-start flex-col">
+        <div class="h-[300px] w-[300px] rounded-[50%] ml-[100px] "> <img class="h-[300px] w-[300px] rounded-[50%]  object-cover"  id="image" alt=""></div>
+        <div class="w-screen h-[60px] mt-3  pt-1 "><h1 id="title" class="ml-[300px] text-5xl font-bold "></h1></div>
+        <div class="h-screen w-screen mt-3 pr-[50px]   "><p id="details" class=" ml-[100px] text-xl font-light"></p></div>
+    </div>
+    <button  id="gohome" class="absolute top-[50px] left-[100px] h-[30px] w-[100px] bg-blue-700 text-white rounded-[10px] ml-10 font-bold transition-all duration-900 hover:bg-green-500 hover:scale-110 hover:shadow-xl ml-[950px]">
+        Go home 
+    </button>
+    
+    <script type="module" src="detail.js"></script>
+</body>
+</html>

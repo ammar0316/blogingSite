@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Built_Collection_Site</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body  class="w-screen h-screen flex justify-center items-center bg-gray-100  ">
+    <div id="newCol">
+        <div  class="h-[550px] w-[500px] bg-white   rounded-[10px]">
+            <div class="h-[550px] w-[460px] bg-white  flex justify-center items-start flex-col  gap-[30px]  rounded-[10px] ml-10">
+               
+               <h1 class="text-[30px] font-bold text-blue-400" >Add blog</h1>
+               <p class="text-lg font-bold ">write your collection name</p>
+               <input id="collection" type="text" placeholder="write Your newCollection name" class="h-[40px] w-[350px] rounded-[10px] bg-gray-200 text-lg font-light  pl-5">
+              
+               <button id="colBtn" class="h-[35px] w-[150px] bg-blue-700 text-white rounded-[10px] ml-10 font-bold transition-all duration-900 hover:bg-green-500 hover:scale-110 hover:shadow-xl">
+                   Create Collection
+               </button>
+               
+            </div>
+        </div>
+
+    </div>
+    <script type="module" src="collection.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>userCollection</title>
+    <!-- tailwindcss  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="overflow-hidden">
+    <div id="hide" class=" hidden shadow-lg flex justify-between  items-center h-[50px] bg-gray-100 w-screen px-5 ">
+
+        <h1 class="text-2xl font-bold "> Your Collection  </h1>
+        <div class="btns h-[50px] w-[400px] flex justify-around  items-center">
+
+            <button id="goUpdate"  class="  h-[30px] w-[150px] bg-blue-700 text-white rounded-[10px] ml-10 font-bold transition-all duration-900 hover:bg-green-500 hover:scale-110 hover:shadow-xl">
+                Go Update  
+            </button>
+            <button id="gohome"  class="  h-[30px] w-[100px] bg-blue-700 text-white rounded-[10px] ml-10 font-bold transition-all duration-900 hover:bg-green-500 hover:scale-110 hover:shadow-xl ">
+                Go home 
+            </button>
+
+            <button id="addPost"  class="  h-[30px] w-[100px] bg-blue-700 text-white rounded-[10px] ml-10 font-bold transition-all duration-900 hover:bg-green-500 hover:scale-110 hover:shadow-xl ">
+               Add post
+            </button>
+            
+        </div>
+    </div>
+       <!-- Card section  -->
+       <div id="parent" class=" mt-5 w-screen flex justify-start gap-[10px] items-center flex-wrap p-5">
+        
+ 
+      </div>
+      <div id="btnDev" class="h-screen w-screen flex justify-center items-center gap-10">
+
+          <input type="text" id="collectionInput" placeholder="Enter Collection Name" class="border p-2 rounded-md">
+          <button id="fetchBtn" class="bg-blue-500 text-white px-4 py-2 rounded-md">LogIn</button>
+        </div>
+
+<!-- Card container -->
+    <!-- <div id="parent" class="mt-5 flex flex-wrap gap-4"></div> -->
+
+      <script type="module" src="userCollection.js"></script>
+
+    
+</body>
+</html>
